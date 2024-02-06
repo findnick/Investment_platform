@@ -11,6 +11,7 @@ export class AuthService {
         govt_id,
         registration_Date
     }) {
+        // 
         try {
             this.account = await fetch('URL_TO_REGISTER_ENDPOINT', {
                 method: 'POST',
